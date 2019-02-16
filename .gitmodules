@@ -1,0 +1,3 @@
+[submodule "apigen-theme-polarphp"]
+	path = apigen-theme-polarphp
+	url = polarphp:polarphp/apigen-theme-polarphp.git
