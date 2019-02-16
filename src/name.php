@@ -28,14 +28,6 @@ interface SomeGlobalNamespaceInterface
 }
 
 
-/**
- * some deprecated global interface
- * @deprecated
- */
-interface SomeGlobalNamespaceInterface
-{
-
-}
 
 /**
  * some global trait
