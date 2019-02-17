@@ -1,4 +1,2 @@
-composer config repo.packagist composer https://packagist.phpcomposer.com
-composer require apigen/apigen --dev
-curdir=`pwd`
-[ ! -s vendor/apigen/theme-polarphp ] && ln -s ${curdir}/apigen-theme-polarphp vendor/apigen/theme-polarphp
+[ ! -d apigen ] && git clone --depth 1 --branch libpdk polarphp:polarphp/apigen.git
+cd apigen && composer install
