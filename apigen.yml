@@ -3,58 +3,57 @@ parameters:
   title: "libpdk API Docs" # string
   baseUrl: "http://libpdk.org/apidocs/php" # string
   overwrite: true # bool
-  xiuxiu: "xiuxiuxi"
   siteCategory:
     home:
-      name: "Home"
+      name: "首页"
       url: "/"
     manual:
-      name: "Manual"
-      url: "/manual/index.html"
-    apidocs:
-      name: "API"
+      name: "文档"
       children:
-        php:
-          name: "PHP API Docs"
-          url: "/apidocs/php/index.html"
-        cpp:
-          name: "CPP API Docs"
-          url: "/apidocs/cpp/index.html"
-    team:
-      name: "Team"
-      url: "/team.html"
+        manual:
+          name: "参考手册"
+          url: "/manual/index.html"
+        libpdk:
+          name: "标准库 API 文档"
+          url: "/apidocs/libpdk/index.html"
+        langref:
+          name: "语言参考规范"
+          url: "/manual/index.html"
     blog:
-      name: "Blog"
+      name: "博客"
       url: "/blog/index.html"
+    team:
+      name: "社区"
+      url: "/community.html"
     about:
-      name: "About"
+      name: "关于我们"
       url: "/about/index.html"
   apiCatalog:
     index:
       name: "Summary"
-      url: "/apidocs/php/index.html"
+      url: "/apidocs/libpdk/index.html"
       icon: "home.svg"
     globals:
       name: "Globals"
-      url: "/apidocs/php/globals.html"
+      url: "/apidocs/libpdk/globals.html"
       icon: "global.svg"
     namespaces:
       name: "Namespaces"
-      url: "/apidocs/php/namespaces.html"
+      url: "/apidocs/libpdk/namespaces.html"
       icon: "namespace.svg"
     functions:
       name: "Functions"
-      url: "/apidocs/php/functions.html"
+      url: "/apidocs/libpdk/functions.html"
       icon: "function.svg"
     classes:
       name: "Classes"
-      url: "/apidocs/php/classes.html"
+      url: "/apidocs/libpdk/classes.html"
       icon: "class.svg"
     interfaces:
       name: "Interfaces"
-      url: "/apidocs/php/interfaces.html"
+      url: "/apidocs/libpdk/interfaces.html"
       icon: "interface.svg"
     traits:
       name: "Traits"
-      url: "/apidocs/php/traits.html"
+      url: "/apidocs/libpdk/traits.html"
       icon: "trait.svg"
